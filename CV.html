@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CV de Foulen ben foulen</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+		body{
+			/*background-image: url("images/bg.jpg");*/
+			margin:0 auto;
+			padding: 5px;
+			width: 900px;
+			border: 1px dotted red;
+
+		}
+
+		@font-face{
+			font-family: "MyFont";
+			src: url('mickey/MICKEY.TTF');
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		#monTitre{
+			color: darkgreen;
+			font-family: MyFont;
+			text-decoration: underline;
+			text-align: center;
+		}
+
+		.maSection{
+			font-family: Courier;
+			background-color: #ffc10761;
+			margin-bottom: 15px;
+			background-image: url("images/animation.gif");
+			background-repeat: no-repeat;
+			background-size: 30px;
+			background-position: right bottom;
+			min-width: 500px;
+			max-width: 700px;
+
+		}
+
+		.maSection:hover{			
+			background-color: #ffc107bf;	
+		}
+		
+		.maSection:active{			
+			background-color: red;
+
+		}
+
+
+		.titreSection{
+			/*text-decoration: underline; */
+			border-left: 3px solid red;
+			border-bottom: 3px solid red;
+			font-family: fantasy;
+
+		}
+
+		.maListe{
+			color: seagreen;
+			list-style-type: "\1F44D";
+			font-weight: bold;
+		}
+		
+		.resume{
+			font-weight: bold;
+			color: #010100;
+		}
+
+		#photo{					
+			margin-bottom: 20px;
+			text-align: right;
+		}
+		#photo img{
+			width: 150px;
+			height: 150px;
+			border:  2px solid red;
+			border-radius: 10px;
+		}
+
+		#photo img:hover{
+			width: 160px;
+			height: 160px;
+			border:  4px double green;
+			border-radius: 20px;
+		}
+
+		p{
+			font-family: 'Fuzzy Bubbles', cursive;
+
+		}
+		p.first{
+			color: blue;
+			
+		}
+		p.second{
+			color: green;
+		}
+
+		#resume{
+			border: 1px solid blue;
+			padding: 15px;
+			margin: 50px;
+		}
+
+		.parcours{
+			border: 1px solid red;
+			/*width: 700px;*/
+			height: 100px;
+			/*overflow: hidden;*/
+			overflow: auto;
+
+		}
+
+		#image1{
+			float: left;
+			border: 3px dotted green;
+			/*padding-right: 5px;*/
+			margin-right: 15px;
+		}
+
+		#image2{
+			float: right;
+			border: 3px dotted green;
+			/*padding-right: 5px;*/
+			margin-left: 15px;
+		}
+
+	</style>
+</head>
+<body>
+<h1 id="monTitre">CV de Foulen ben foulen</h1>
+<p id="photo"><img src="images/kamel.jpeg"></p>
+
+<p id="resume">Une voiture venait d’arriver de l’autre côté de la barrière</p>
+
+
+<img id="image1" src="images/image.jpg" width="100px" height="50px">
+
+<p class="parcours">« À la base militaire du 57e RA ? Mais qu’est-ce que j’ai à voir avec les militaires ? » David se rappelle y avoir fait un séjour alors qu’il avait vingt-quatre ans. Il avait fait tout son possible pour éviter le service militaire, encore en vogue à l’époque, mais lorsqu’on lui avait proposé de travailler sur des projets informatiques secret défense, il n’avait pas su résister. Non pas que c’était passionnant, mais au moins, il ne faisait pas trop de sortie et il était tranquillement installé dans un bureau avec le matériel dont il rêvait.</p>
+
+
+<img id="image2" src="images/image.jpg" width="100px" height="100px">
+
+<p class="parcours">« À la base militaire du 57e RA ? Mais qu’est-ce que j’ai à voir avec les militaires ? » David se rappelle y avoir fait un séjour alors qu’il avait vingt-quatre ans. Il avait fait tout son possible pour éviter le service militaire, encore en vogue à l’époque, mais lorsqu’on lui avait proposé de travailler sur des projets informatiques secret défense, il n’avait pas su résister. Non pas que c’était passionnant, mais au moins, il ne faisait pas trop de sortie et il était tranquillement installé dans un bureau avec le matériel dont il rêvait.</p>
+
+
+
+<section class="maSection">
+	<header class="titreSection">Experiences</header>
+	<p class="first">Une voiture venait d’arriver de l’autre côté de la barrière.</p>
+	<ol class="maListe">
+		<li>Développeur web</li>
+		<li>Marketing</li>
+		<li>Concepteur</li>
+	</ol>
+	<footer class="resume">
+		J'ai 5 ans d'experiences.
+	</footer>
+
+</section>
+
+
+
+<section class="maSection">
+	<header class="titreSection">Formations</header>
+	<p class="second">Ne t’inquiète pas, elle n’a rien pour l’instant. Par contre, dès que je serais relié au réseau, Florence ne sera plus..</p>
+	<ol class="maListe">
+		<li>Formation en Front-End</li>
+		<li>Formation Marketing</li>
+		<li>Formation Anglais</li>
+	</ol>
+	<footer class="resume">
+		J'ai 3 certifications.
+	</footer>
+
+</section>
+
+<a href="cv.pdf" title="telecharger mon cv">Télécharger mon cv</a>
+
+</body>
+</html>
